@@ -1,0 +1,90 @@
+.shoppingcartimg {
+    background: url(../asset/aboutas.svg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.shoppingcarttext {
+    position: absolute;
+    color: white;
+    font-family: "rubik";
+    font-size: 40px;
+    font-weight: 600;
+}
+.shopcard{
+    /* background-color:orange; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.gameadd2{
+    width: 63%;
+
+    /* background-color:red; */
+}
+.payment{
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    /* align-items: center; */
+    height: 550px;
+}
+.paymentcard{
+    width: 90%;
+    height: auto;
+    border: 5px solid #2182AC;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.btntext{
+    position: relative;
+}
+.couponcode{
+    width: 90%;
+    height:20px;
+    border-radius: 15px;
+    background-color: #F9F9F9;
+    border: 1px solid #F0F0F0;
+    padding: 10px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.pricetext1{
+    display: flex;
+    gap: 3px;
+}
+@media(max-width:920px){
+    .shopcard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .payment{
+        margin-top: 20px;
+    }
+    .gameadd2{
+        width:100%;
+        /* background-color:red; */
+    }
+}
+@media(max-width:420px){
+
+    .payment{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+}

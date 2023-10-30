@@ -1,0 +1,941 @@
+.homebackground {
+    position: relative;
+    background: url(../asset/header.png);
+    height: 130vh;
+    background-size: 100% 100%;
+
+
+    /* height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+
+.cloud {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 17%;
+    left: 18%;
+}
+
+.airplane {
+    position: absolute;
+    top: 13%;
+    opacity: .9;
+    animation: cloud 20s linear 0s infinite reverse;
+    width: auto
+}
+
+@keyframes cloud {
+    0% {
+        right: 0px;
+    }
+
+    100% {
+        right: 102%;
+    }
+}
+
+.toyplane {
+    position: absolute;
+    left: 32%;
+    bottom: 20%;
+}
+
+.toyplane2 {
+    position: absolute;
+    right: 40%;
+    top: 10%;
+}
+
+.cloud3 {
+    position: absolute;
+    top: 17%;
+    right: 28%;
+    opacity: 0.5;
+
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12%;
+}
+
+.one {
+    height: auto;
+    width: 30%;
+    /* background-color: aquamarine; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.dotimg {
+    position: absolute;
+    width: 60%;
+    top: 10%;
+    right: 12%;
+}
+
+.homeone {
+    position: absolute;
+    width: 60%;
+}
+
+.two {
+    height: 300px;
+    width: 40%;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+
+}
+
+.three {
+    height: auto;
+    width: 30%;
+    /* background-color: indianred; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.dotimg2 {
+    position: absolute;
+    width: 60%;
+    top: 10%;
+    right: 13%;
+}
+
+.hometwo {
+    position: absolute;
+    width: 60%;
+}
+
+.homethree {
+    position: absolute;
+    width: 30%;
+    top: 100%;
+    left: 10%;
+}
+
+.cityphoto {
+    width: 300px;
+    position: relative
+}
+
+.explorecity {
+    display: flex;
+    margin: 30px 0px 30px 0px;
+}
+
+.images {
+    /* background-color: lightcoral; */
+    width: 50%;
+    /* height: 100vh; */
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.texts {
+    /* background-color: ligh   tgreen; */
+    width: 45%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.backgroundblue {
+    background: var(--4, linear-gradient(45deg, #3077A1 0%, #314989 100%));
+    width: 100%;
+    height: auto;
+    /* margin-top: 30px; */
+
+}
+
+.background2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    width: 60%;
+}
+
+.blur1 {
+    width: 30%;
+    text-align: -webkit-center;
+    color: white;
+    font-size: 18px;
+}
+
+.blur2 {
+    width: 30%;
+    text-align: -webkit-center;
+    color: white;
+    font-size: 18px;
+}
+
+.blur3 {
+    width: 30%;
+    text-align: -webkit-center;
+    color: white;
+    font-size: 18px;
+}
+
+.bgoutdoor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+
+}
+
+.outdoorphoto {
+    width: 100%;
+}
+
+.historyphoto {
+    width: 100%;
+}
+
+.text2 {
+    width: 35%;
+}
+
+.outdoorimage {
+    width: 35%;
+
+}
+
+.history {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.text3 {
+    width: 35%;
+}
+
+.historyimage {
+    width: 35%;
+}
+
+.messagepart {
+    margin-top: 80px;
+    /* position: relative; */
+    background: url(../asset/city.svg);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.msg {
+    width: 40%;
+}
+
+.msgicon {
+    width: 100%;
+}
+
+.icon {
+    width: 80%;
+}
+
+.icons {
+    width: 40%;
+}
+
+.cubesphoto {
+    position: absolute;
+    left: 222px;
+    width: 120px;
+    height: 120px;
+    /* margin: -60px 0 0 -60px; */
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+    80% {
+        -moz-transform: rotate(270deg);
+    }
+}
+
+@keyframes spin {
+    80% {
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* .onedrop {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+} */
+.onedrop {
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.twodrop {
+    position: absolute;
+    left: 160px;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.threedrop {
+    position: absolute;
+    left: 300px;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.fourdrop {
+    position: absolute;
+    right: 300px;
+    top: 20px;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.fivedrop {
+    position: absolute;
+    right: 160px;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.sixdrop {
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.middlebox {
+    width: 50%;
+    height: 450px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.footertext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+}
+
+.footerline {
+    background: var(--4, linear-gradient(45deg, #3077A1 0%, #314989 100%));
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.gradian {
+    background: radial-gradient(74.09% 74.09% at 50% 13.61%, #A30067 0%, #0B003A 100%);
+    height: 300px;
+}
+
+@media(max-width:1330px) {
+    .main {
+
+        padding-top: 15%;
+    }
+}
+
+@media(max-width:1200px) {
+    .main {
+
+        padding-top: 20%;
+    }
+
+    .dotimg {
+        position: absolute;
+        width: 70%;
+        top: 6%;
+        right: 8%;
+    }
+
+    .homeone {
+        width: 70%;
+    }
+
+    .dotimg2 {
+        position: absolute;
+        width: 70%;
+        top: 6%;
+        right: 8%;
+    }
+
+    .hometwo {
+        width: 70%;
+    }
+
+    .homethree {
+        position: absolute;
+        width: 40%;
+        top: 100%;
+        left: 10%;
+    }
+
+}
+
+@media(max-width:950px) {
+    .main {
+        padding-top: 23%;
+    }
+
+    .dotimg {
+        position: absolute;
+        width: 80%;
+        top: 5%;
+        right: 0%;
+    }
+
+    .homeone {
+        width: 80%;
+    }
+
+    .dotimg2 {
+        position: absolute;
+        width: 80%;
+        top: 5%;
+        right: 0%;
+    }
+
+    .hometwo {
+        width: 80%;
+    }
+
+    .homethree {
+        position: absolute;
+        width: 50%;
+        top: 100%;
+        left: 10%;
+    }
+
+    .onedrop {
+        position: absolute;
+        left: 30px;
+        top: 100px;
+        width: 9%;
+    }
+
+    .twodrop {
+        position: absolute;
+        left: 130px;
+        width: 9%;
+
+    }
+
+    .threedrop {
+        position: absolute;
+        left: 280px;
+        width: 10%;
+
+    }
+
+    .fourdrop {
+        position: absolute;
+        right: 280px;
+        top: 20px;
+        width: 9%;
+
+    }
+
+    .fivedrop {
+        position: absolute;
+        right: 130px;
+        width: 9%;
+
+    }
+
+    .sixdrop {
+        position: absolute;
+        right: 30px;
+        top: 100px;
+        width: 9%;
+
+    }
+
+    .middlebox {
+        height: 420px;
+
+    }
+
+}
+
+@media(max-width:850px) {
+    .one {
+        display: none;
+    }
+
+    .two {
+        width: 100%;
+        /* margin-top: 30px; */
+    }
+
+    .three {
+        display: none;
+    }
+
+    .cloud2 {
+        display: none;
+    }
+
+    .toyplane {
+        left: 20%;
+    }
+
+    .toyplane2 {
+        position: absolute;
+        right: 10%;
+        top: 7%;
+    }
+
+    .homebackground {
+
+        height: 110vh;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .explorecity {
+        display: block;
+    }
+
+    .images {
+        width: fit-content;
+        margin-inline: auto;
+    }
+
+    .texts {
+        width: 100%;
+        height: 300px;
+        align-items: center;
+    }
+
+    .background2 {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .blur1 {
+        width: 100%;
+    }
+
+    .blur2 {
+        width: 100%;
+    }
+
+    .blur3 {
+        width: 100%;
+        /* padding-bottom: 20px; */
+    }
+
+    .bgoutdoor {
+        display: block;
+        text-align: -webkit-center;
+        padding-bottom: 50px;
+    }
+
+    .text2 {
+        width: 90%;
+        text-align: center;
+        /* margin-bottom: 30px; */
+    }
+
+    .outdoorimage {
+        width: 100%;
+    }
+
+    .outdoorphoto {
+        width: fit-content;
+
+    }
+
+    .history {
+        /* display: block; */
+        text-align: -webkit-center;
+        flex-wrap: wrap-reverse;
+        /* padding-top: 100px; */
+        margin-top: 180px;
+    }
+
+    .text3 {
+        width: 90%;
+        text-align: center;
+        /* margin-bottom: 30px; */
+    }
+
+    .historyimage {
+        width: 100%;
+    }
+
+    .historyphoto {
+        width: fit-content;
+
+
+    }
+
+    .messagepart {
+        display: block;
+        height: auto;
+    }
+
+    .msg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .msgicon {
+        width: 70%;
+    }
+
+    .icon {
+        width: 60%;
+    }
+
+    .icons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .onedrop {
+        left: 15px;
+
+    }
+
+    .twodrop {
+        position: absolute;
+        left: 100px;
+        width: 9%;
+
+    }
+
+    .threedrop {
+        position: absolute;
+        left: 200px;
+        width: 10%;
+
+    }
+
+    .fourdrop {
+        position: absolute;
+        right: 200px;
+        top: 20px;
+        width: 9%;
+
+    }
+
+    .fivedrop {
+        position: absolute;
+        right: 100px;
+        width: 9%;
+
+    }
+
+    .sixdrop {
+        position: absolute;
+        right: 15px;
+        top: 100px;
+        width: 9%;
+
+    }
+
+
+
+    .footertext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+    }
+
+    .middlebox {
+        width: 100%;
+        height: 350px;
+    }
+
+    .cloud3 {
+        top: 6%;
+        right: 43%;
+    }
+
+
+}
+
+@media(max-width:510px) {
+    .onedrop {
+        display: none;
+    }
+
+    .twodrop {
+        display: none;
+    }
+
+    .threedrop {
+        position: absolute;
+        left: 100px;
+        width: 20%;
+
+    }
+
+    .fourdrop {
+        position: absolute;
+        right: 100px;
+        top: 10px;
+        width: 20%;
+
+    }
+
+    .fivedrop {
+        display: none;
+    }
+
+    .sixdrop {
+        display: none;
+    }
+
+
+}
+
+@media(max-width:520px) {
+    .historyphoto {
+        width: 90%;
+    }
+
+    .outdoorphoto {
+        width: 90%;
+    }
+}
+
+@media(max-width:450px) {
+    .cityphoto {
+        width: 235px;
+        position: relative
+    }
+
+    .cubesphoto {
+        width: 106px;
+        position: absolute;
+        left: 180px
+    }
+
+    .history {
+        /* display: block; */
+        text-align: -webkit-center;
+        flex-wrap: wrap-reverse;
+        /* padding-top: 100px; */
+        margin-top: 100px;
+    }
+
+    .threedrop {
+        position: absolute;
+        left: 30px;
+        width: 20%;
+        top: -20px;
+
+    }
+
+    .fourdrop {
+        position: absolute;
+        right: 30px;
+        top: 0px;
+        width: 20%;
+
+    }
+
+    .cloud3 {
+        display: none;
+    }
+
+    .toyplane2 {
+        right: 10%;
+        top: 1%;
+    }
+}
+
+@media(max-width:460px) {
+    .two {
+        margin-top: 50px;
+    }
+
+}
+
+@media(max-width:345px) {
+    .cityphoto {
+        width: 250px;
+        position: relative
+    }
+
+    .cubesphoto {
+        width: 90px;
+        position: absolute;
+        left: 180px
+    }
+
+    .history {
+        /* display: block; */
+        text-align: -webkit-center;
+        flex-wrap: wrap-reverse;
+        /* padding-top: 100px; */
+        margin-top: 60px;
+    }
+
+    .middlebox {
+        margin-top: 30px;
+    }
+}

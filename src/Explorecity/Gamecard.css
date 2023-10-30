@@ -1,0 +1,42 @@
+.cardline2 {
+    background-color: rgb(245, 245, 245);
+    width: 200px;
+    height:auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* .card {
+    background-color: rgb(245, 245, 245);
+    width: 200px;
+    height: 330px;
+    border-radius: 10px;
+    padding: 20px;
+} */
+
+.carddetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageone {
+    width: 200px;
+}
+
+.moneyitem {
+    display: flex;
+}
+
+.mrp {
+    display: flex;
+}
+
+.moneyicon {
+    width: 30px;
+}
+
+.moneyicon2 {
+    width: 15px;
+    opacity: 0.5;
+    padding-left: 10px;
+}

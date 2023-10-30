@@ -1,0 +1,21 @@
+select {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: white !important;
+}
+
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+  color: white !important;
+}
